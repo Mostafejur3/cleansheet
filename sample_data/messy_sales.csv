@@ -1,0 +1,11 @@
+OrderID,Customer,City,Product,Quantity,UnitPrice,OrderDate
+1001, Alice ,Nantong,Notebook,2,4.50,2026-01-02
+1002,Bob,Shanghai,Pen,10,1.20,2026-01-03
+1003,Alice,Nantong,Notebook,2,4.50,2026-01-02
+1004,Chen,Beijing,Backpack,1,,
+1005,,Shanghai,Pen,5,1.20,2026-01-05
+1006,Dina, Nanjing ,Desk Lamp,2,12.00,2026-01-06
+1007,Ethan,Beijing,Notebook,,4.50,2026-01-07
+1008,Fatima,Guangzhou,Backpack,1,25.00,2026-01-08
+1009,Gao,Shanghai,Pen,3,1.20,2026-01-09
+1010,Chen,Beijing,Backpack,1,25.00,2026-01-10
