@@ -1,3 +1,136 @@
+# ✦ CleanSheet — Smart CSV Data Cleaner
+
+<div align="center">
+
+![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Processing-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-Visualization-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-2EA44F?style=for-the-badge)
+
+### Turn messy CSV files into clean, reliable, analysis-ready datasets.
+
+CleanSheet is a lightweight, user-friendly data-cleaning application designed to simplify the process of inspecting, understanding, and cleaning messy CSV datasets — without writing a single line of code.
+
+**Upload. Analyze. Clean. Validate. Export.**
+
+[Features](#-features) · [Installation](#-getting-started) · [Usage](#-how-to-use-cleansheet) · [Architecture](#-project-structure) · [License](#-license)
+
+</div>
+
+---
+
+## 📌 Overview
+
+Working with real-world datasets often means dealing with missing values, duplicate records, inconsistent formatting, and other data-quality problems.
+
+Cleaning these datasets manually can be time-consuming, repetitive, and error-prone.
+
+**CleanSheet solves this problem through a simple, interactive workflow.**
+
+Users can upload a CSV file, automatically inspect its quality, identify problems, apply appropriate cleaning strategies, compare the results, and export a cleaned dataset.
+
+No advanced programming knowledge is required.
+
+### The CleanSheet Workflow
+
+```text
+       📂 Upload CSV
+             |
+             ▼
+      🔍 Inspect Dataset
+             |
+             ▼
+      📊 Analyze Data Quality
+             |
+             ▼
+       🧹 Clean Your Data
+             |
+             ▼
+      ✅ Validate Results
+             |
+             ▼
+       📥 Export Clean CSV
+```
+
+---
+
+## ✨ Features
+
+### 1. 📂 Easy CSV Upload
+- Upload CSV files directly through the interface.
+- Supports UTF-8 and Latin-1 encoding with fallback handling.
+- Quickly load and inspect datasets.
+- Includes sample data for demonstration.
+
+### 2. 📊 Instant Dataset Overview
+
+Get an immediate overview of your uploaded dataset.
+
+- Total number of rows.
+- Total number of columns.
+- Missing cell count.
+- Duplicate row count.
+- Overall data-quality score.
+
+### 3. 🔍 Column-Level Quality Analysis
+
+Understand the quality of individual columns.
+
+- Identify missing values.
+- Inspect data completeness.
+- Review column-level statistics.
+- Detect potential data-quality issues.
+
+### 4. 🧠 Smart Missing Value Handling
+
+Choose appropriate strategies depending on the column type.
+
+**For numerical columns:**
+- Median
+- Mean
+- Zero
+- Drop rows containing missing values
+
+**For text and categorical columns:**
+- Most frequent value
+- Replace with `Unknown`
+- Drop rows containing missing values
+
+### 5. 🧹 Advanced Cleaning Operations
+
+Clean your dataset using simple interactive controls.
+
+- Remove leading and trailing whitespace.
+- Remove exact duplicate rows.
+- Handle missing values.
+- Apply cleaning operations without modifying the original uploaded dataset.
+
+### 6. 📈 Before & After Comparison
+
+Evaluate the impact of your cleaning operations.
+
+- Compare original and cleaned datasets.
+- Review changes in missing values.
+- Compare duplicate records.
+- Monitor data-quality improvements.
+
+### 7. 📥 Export Cleaned Dataset
+
+Download your cleaned dataset as a CSV file.
+
+- UTF-8 encoding with BOM for spreadsheet compatibility.
+- Convenient export functionality.
+- Ready for further analysis in Excel, Python, Power BI, and other tools.
+
+### 8. 🧪 Built-in Sample Dataset
+
+New users can explore CleanSheet without preparing their own data.
+
+Use the included sample dataset to understand the application's cleaning workflow.
+
+---
+
 ## 🛠 Technology Stack
 
 | Technology | Purpose |
