@@ -31,19 +31,18 @@ st.set_page_config(
 # ==========================================================
 st.html("""
 <head>
+    <!-- Google Analytics (GA4) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQK7KTCMK8"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-WQK7KTCMK8');
+    </script>
+
     <!-- SEO Meta Tags -->
     <meta name="description" content="CleanSheet is a lightweight data-quality app to inspect and clean messy CSV files without writing code.">
-    <meta name="keywords" content="CSV cleaner, data cleaning, data quality, smart data studio, pandas, streamlit">
-    <meta name="author" content="Your Name">
-    
-    <!-- Google Analytics (Replace G-XXXXXXXXXX with your ID) -->
-    <script async src="https://www.googletagmanager.com/gtm.js?id=GTM-T7ZP875G"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-</script>
-
+    <meta name="keywords" content="CSV cleaner, data cleaning, data quality, smart data studio">
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,600&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     
